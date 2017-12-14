@@ -1,0 +1,23 @@
+{
+  "name": "cardanimation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackharrhy/cardAnimation.git"
+  },
+  "author": "Jack Arthur Harrhy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jackharrhy/cardAnimation/issues"
+  },
+  "homepage": "https://github.com/jackharrhy/cardAnimation#readme",
+  "dependencies": {
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  }
+}
