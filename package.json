@@ -16,8 +16,9 @@
     "url": "https://github.com/jackharrhy/cardAnimation/issues"
   },
   "homepage": "https://github.com/jackharrhy/cardAnimation#readme",
-  "dependencies": {
-    "webpack": "^3.10.0",
-    "webpack-dev-server": "^2.9.7"
+  "devDependencies": {
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
   }
 }
