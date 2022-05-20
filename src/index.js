@@ -1,11 +1,7 @@
 import numToCard from "./numToCard";
 import cardURLs from "./cardURLs";
 
-const cardPrefix = "cards/";
-
-function randInt(min, max) {
-  return Math.floor(Math.random() * max) + min;
-}
+const cardPrefix = "./cards/";
 
 function vec3(x, y, z) {
   return { x: x, y: y, z: z };
