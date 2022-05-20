@@ -1,10 +1,10 @@
 export default function cardToNum(suit, num) {
-  var toAdd = 0;
-  if(suit === 'diamonds') {
+  let toAdd = 0;
+  if (suit === "diamonds") {
     toAdd = 13;
-  } else if(suit === 'hearts') {
+  } else if (suit === "hearts") {
     toAdd = 26;
-  } else if(suit === 'spades') {
+  } else if (suit === "spades") {
     toAdd = 39;
   }
 
