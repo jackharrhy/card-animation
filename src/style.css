@@ -1,57 +1,57 @@
 /*http://www.color-hex.com/color-palette/13445*/
 
 body {
-	margin: 0;
-	background-color: #003831;
-	font-family: Helvetica;
-	color: white;
+  margin: 0;
+  background-color: #003831;
+  font-family: Helvetica;
+  color: white;
 }
 
 header {
-	margin: 0 auto;
-	width: 15em;
-	text-align: center;
-	background-color: #007c02;
-	box-shadow: 2px 2px 10px black;
+  margin: 0 auto;
+  width: 15em;
+  text-align: center;
+  background-color: #007c02;
+  box-shadow: 2px 2px 10px black;
 }
 
 #cardDisplay {
-	width: 100%;
+  width: 100%;
 }
 #cardDisplay img {
-	width: 1.92307692308%;
-	height: 20px;
+  width: 1.92307692308%;
+  height: 20px;
 }
 h3:hover {
-	color: #999;
+  color: #999;
 }
 
 #questions {
-	display: none;
-	padding: 2em 5em 2em 5em;
-	margin: 0 auto;
-	width: 30em;
-	background: rgba(0,0,0,0.5);
+  display: none;
+  padding: 2em 5em 2em 5em;
+  margin: 0 auto;
+  width: 30em;
+  background: rgba(0, 0, 0, 0.5);
 }
 @-webkit-keyframes questionAnim {
-	0%   {
-	}
-	100% {
- 	}
+  0% {
+  }
+  100% {
+  }
 }
 h2 {
-	margin: 0;
-	text-align: center;
-	font-weight: bold;
-	text-shadow: 2px 2px 10px orange;
-	-webkit-animation: questionAnim 5s infinite;
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 2px 2px 10px orange;
+  -webkit-animation: questionAnim 5s infinite;
 }
 input {
-	width: 100%;
+  width: 100%;
 }
 
 canvas {
-	position: absolute;
-	top: 0;
-	z-index: -1;
+  position: absolute;
+  top: 0;
+  z-index: -1;
 }
