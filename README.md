@@ -6,5 +6,7 @@ https://jackharrhy.github.io/card-animation/
 
 2017 - remade as a standalone animation
 
-2022 - migrated to use vite instead of webpack, deployed to github pages
+may 2022 - migrated to use vite instead of webpack, deployed to github pages
+
+sept 2022 - saw there was a dependabot pr, also saw this repo was still javascript, decided to update packages and then do a typescript conversion
 
